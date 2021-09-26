@@ -1,0 +1,19 @@
+/* Esta clase permite modificar los margenes al body */
+.body{
+    margin: 0px;
+}
+
+/* este es un selector de codigo quita los puntos a las listas desordenadas  y  el padding y margin de los elementos de
+ la lista  */
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
