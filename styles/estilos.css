@@ -17,3 +17,8 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+
+/* Esta clase me permite redimensionar el logo */
+.logo{
+    height: 70px;
+}
