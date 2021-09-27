@@ -16,6 +16,7 @@ ul{
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 /* Esta clase me permite redimensionar el logo */
