@@ -93,3 +93,47 @@ ul{
 .iconobusqueda:hover{
     color: indigo;
 }
+
+/* este es el contenedor padre*/
+.contenedorimagen{
+    width: 240px;
+    height: 350px;
+    display: flex;  /*esta opcion se requiere para que funcione el object-fit en la clase hija*/
+    margin-bottom: 10px; /*esto separa el titulo de las fotos */
+}
+
+.contenedorimagen:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
+/*clase para el contenedor hijo*/
+.contenedorimagen > img{  /* esto quiere decir que todas las imagenes que esten por debajo del contenedor se les aplica:*/
+    object-fit:cover;
+    width: 100%;  /* esto permite que la imagen sea estandar segun su padre*/
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.contenedortarjetas{
+    display: flex;
+    align-items: center;
+    
+}
+
+.tarjeta{
+    margin: 10px;
+    background-color: rgb(189, 186, 186);
+    box-shadow: 5px 10px 5px rgb(177, 175, 175); /*esto permite la sombra y el diguminado de la imagen */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+  .titulotarjeta{
+      color: black; /*color del texto*/
+      font-weight: bolder; /*estilo de la fuente*/
+      margin: 10px; /*margen*/
+      font-size: x-large;  /* esto cambia el tamano de la fuente 
+
+
+  }
