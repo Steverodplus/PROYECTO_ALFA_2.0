@@ -24,19 +24,35 @@ ul{
     height: 70px;
 }
 
-.mainbutton{
-    background-color: darkmagenta;  /* color fondo del boton */
-    color: floralwhite; /*color del texto*/
+/*Estas son las caracteristicas del boton estandar */
+.button{
     border: 0px;  /* quita los bordes al boton */
     padding: 5px 10px;  /* esto da espacio desde adentro*/
     border-radius: 10px; /*genera la redondes en los bordes del boton*/
     font-weight: bolder; /*cambia el estilo de la fuente */
-    
 }
-/*  modificador de clase: altera la apariencia del elemento al pasar el mouse*/
-.mainbutton:hover{
+
+.button:hover{
     cursor: pointer;  /*cambia el cursor*/
     transform: scale(1.1);
-    box-shadow: 2px 2px rgb(167, 111, 223) ; /* esto nos permite colocarle sombra al boton*/
+}
 
+.mainbutton{
+    background-color: darkmagenta;  /* color fondo del boton */
+    color: floralwhite; /*color del texto*/    
+}
+
+/*  modificador de clase: altera la apariencia del elemento al pasar el mouse*/
+.mainbutton:hover{
+    box-shadow: 2px 2px rgb(167, 111, 223) ; /* esto nos permite colocarle sombra al boton*/
+}
+
+.secondarybutton{
+    background-color: rgb(201, 115, 201);  /* color fondo del boton */
+    color:black; /*color del texto*/
+    }
+
+/*  modificador de clase: altera la apariencia del elemento al pasar el mouse*/
+.secondarybutton:hover{
+        box-shadow: 2px 2px rgb(124, 37, 211) ; /* esto nos permite colocarle sombra al boton*/
 }
