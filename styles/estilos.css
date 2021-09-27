@@ -20,6 +20,7 @@ ul{
     background: rgb(245, 235, 245);
     border-bottom: 1px solid black;
     box-shadow: 1px 1px gray ;
+    
 }
 
 /* con esto clase podemos centrar los elementos de iconos creados */
@@ -27,6 +28,7 @@ ul{
 .navbar>li{   /*Cualquier "li" que se encuentre por debajo del "navbar" apliquele:*/
     display: flex;
     align-items: center; /* este permite alinear al centro*/
+    
 }
 
 
