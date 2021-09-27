@@ -118,6 +118,7 @@ ul{
 .contenedortarjetas{
     display: flex;
     align-items: center;
+    text-align: center;   /*permite justiticar el texto al centro */
     
 }
 
@@ -133,7 +134,6 @@ ul{
       color: black; /*color del texto*/
       font-weight: bolder; /*estilo de la fuente*/
       margin: 10px; /*margen*/
-      font-size: x-large;  /* esto cambia el tamano de la fuente 
-
-
+      font-size: x-large;  /* esto cambia el tamano de la fuente */
+     
   }
