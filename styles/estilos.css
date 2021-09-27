@@ -56,3 +56,22 @@ ul{
 .secondarybutton:hover{
         box-shadow: 2px 2px rgb(124, 37, 211) ; /* esto nos permite colocarle sombra al boton*/
 }
+
+/*con este se le da el nuevo borde al elemento buscar*/
+.buscar{
+    background:white;
+    border: 1px solid;  
+    padding: 4px;
+    border-radius: 8px;
+}
+
+/*Esto da efecto en el borde del cuadro de busqueda mas gueso*/
+.buscar:focus-within{
+    border: 2px solid darkmagenta;
+}
+
+/*con esto se le quita el borde al elemento buscar*/
+.buscar > input{
+    outline: none; 
+    border: 0px;
+}
