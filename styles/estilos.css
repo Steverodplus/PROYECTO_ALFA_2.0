@@ -17,7 +17,18 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background: rgb(245, 235, 245);
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px gray ;
 }
+
+/* con esto clase podemos centrar los elementos de iconos creados */
+
+.navbar>li{   /*Cualquier "li" que se encuentre por debajo del "navbar" apliquele:*/
+    display: flex;
+    align-items: center; /* este permite alinear al centro*/
+}
+
 
 /* Esta clase me permite redimensionar el logo */
 .logo{
@@ -34,7 +45,7 @@ ul{
 
 .button:hover{
     cursor: pointer;  /*cambia el cursor*/
-    transform: scale(1.1);
+    transform: scale(1.1); /*Esto hace que el boton se agrande */
 }
 
 .mainbutton{
@@ -63,6 +74,9 @@ ul{
     border: 1px solid;  
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content:space-between;
 }
 
 /*Esto da efecto en el borde del cuadro de busqueda mas gueso*/
@@ -74,4 +88,8 @@ ul{
 .buscar > input{
     outline: none; 
     border: 0px;
+}
+
+.iconobusqueda:hover{
+    color: indigo;
 }
